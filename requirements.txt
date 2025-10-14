@@ -1,0 +1,7 @@
+streamlit
+google-generativeai
+jinja2
+python-docx
+pdfkit
+pyppeteer
+fpdf
