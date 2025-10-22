@@ -29,7 +29,7 @@ def configure_gemini():
         return None
     
     try:
-        genai.configure(api_key='AIzaSyB_jHquMj7QQYsmojrU-1ti2syDIbMjeD8')
+        genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
         model = genai.GenerativeModel('gemini-2.5-flash')
         return model
     except Exception as e:
